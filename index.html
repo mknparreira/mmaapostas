@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="mmaapostas">
+	<head>
+		<meta charset="UTF-8">
+		<title>MMA Apostas</title>
+		<script src="libs/angular/angular.js"></script>
+		<script src="libs/angular/angular-locale_pt-br.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/services/nextEventsAPIService.js"></script>
+		<script src="js/controllers/mmaApostasCtrl.js"></script>
+		<link rel="stylesheet" href="lib/bootstrap/bootstrap.css">
+	</head>
+	<body ng-controller="mmaApostasCtrl">
+		<table>
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Tìtulo</th>
+					<th>Data</th>
+					<th>Estádio</th>
+					<th>Local</th>
+					<th>Apostar</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="nextEvent in nextEvents">
+					<td class="center">{{nextEvent.identifier}}</td>
+					<td class="center">{{nextEvent.title}}</td>
+					<td class="center">{{nextEvent.date | date:'dd/MM/yyyy'}}</td>
+					<td class="center">{{nextEvent.venue}}</td>
+					<td class="center">{{nextEvent.location}}</td>
+					<td class="center"></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

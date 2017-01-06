@@ -1,0 +1,37 @@
+[
+    {
+        "identifier" : 1,
+        "title": "UFC Fight Night: Rodríguez vs. Penn",
+        "date": "2017-01-15",
+        "venue": "Talking Stick Resort Arena",
+        "location": "Phoenix, Arizona, U.S"
+   },
+   {
+        "identifier" : 2,
+        "title": "UFC on Fox: Shevchenko vs. Peña",
+        "date": "2017-01-28",
+        "venue": "Pepsi Center",
+        "location": "Denver, Colorado, U.S"
+   },
+   {
+        "identifier": 3,
+        "title": "UFC Fight Night: Bermudez vs. Korean Zombie",
+        "date": "2017-02-04",
+        "venue": "Toyota Center",
+        "location": "Houston, Texas, U.S"
+   },
+   {
+        "identifier": 4,
+        "title": "UFC 208",
+        "date": "2017-02-11",
+        "venue": "Barclays Center",
+        "location": "Brooklyn, New York, U.S"
+   },
+   {
+        "identifier": 5,
+        "title": "UFC Fight Night: dos Santos vs. Struve 2",
+        "date": "2017-02-19",
+        "venue": "Scotiabank Centre",
+        "location": "Halifax, Nova Scotia, Canada"
+   }
+]
